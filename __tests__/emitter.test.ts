@@ -53,4 +53,13 @@ describe('emitter', () => {
     // @ts-expect-error event does not exist
     emitter.fire('event2', { foo: 'bar', bar: 1 });
   });
+
+  it('once should execute the event only once', () => {
+    const spy = jest.fn();
+    emitter.once('event', spy);
+    emitter.fire('event', { foo: 'bar', bar: 1 });
+    expect(spy).toHaveBeenCalledTimes(1);
+    emitter.fire('event', { foo: 'bar', bar: 1 });
+    expect(spy).toHaveBeenCalledTimes(1);
+  });
 });
