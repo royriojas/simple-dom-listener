@@ -1,4 +1,4 @@
-# simple-typed-emitter
+# create-typed-emitter
 
 Very simple typed event emitter with a simplified api interface, inspired by [strict-event-emitter-types](https://github.com/bterlson/strict-event-emitter-types)
 
@@ -11,12 +11,13 @@ Very simple typed event emitter with a simplified api interface, inspired by [st
 ## Installation
 
 ```bash
-npm install simple-typed-emitter
+npm install create-typed-emitter
 ```
 
 ## Usage
 
 ```ts
+import { createEmitter } from 'create-typed-emitter';
 // create an interface for your emitter events
 interface EmitterInterface {
   event: { foo: string; bar: number };

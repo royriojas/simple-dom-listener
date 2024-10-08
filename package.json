@@ -1,5 +1,5 @@
 {
-  "name": "simple-typed-emitter",
+  "name": "create-typed-emitter",
   "version": "0.0.2",
   "description": "Simple typed event emitter with a simplified api interface",
   "main": "dist/index.js",
