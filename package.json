@@ -1,18 +1,16 @@
 {
-  "name": "create-typed-emitter",
-  "version": "0.0.4",
-  "description": "Simple typed event emitter with a simplified api interface",
+  "name": "simple-dom-listener",
+  "version": "0.0.1",
+  "description": "Simple dom listener helpers to add remove events without having to keep a reference to the listener itself",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "license": "MIT",
   "author": "royriojas",
   "keywords": [
-    "emitter",
+    "addEventListener",
     "typed",
-    "emittery",
-    "typescript",
-    "typed-emitter",
-    "event-emitter"
+    "addListener",
+    "add dom listener"
   ],
   "files": [
     "dist/**/*"
@@ -50,24 +48,20 @@
     "@types/node": "17.0.14",
     "@types/pino": "6.3.6",
     "@types/react": "17.0.38",
-    "@typescript-eslint/eslint-plugin": "^4.8.2",
-    "@typescript-eslint/parser": "^4.8.2",
+    "@typescript-eslint/eslint-plugin": "6.4.0",
+    "@typescript-eslint/parser": "6.4.0",
     "babel-jest": "27.4.6",
     "changelogx": "5.0.6",
-    "eslint": "^7.14.0",
+    "eslint": "8.46.0",
+    "eslint-config-prettier": "8.8.0",
     "eslint-config-airbnb": "^18.2.1",
-    "eslint-config-prettier": "^6.15.0",
     "eslint-import-resolver-webpack": "^0.13.0",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-jsx-a11y": "^6.4.1",
-    "eslint-plugin-prettier": "^3.1.4",
-    "prettier": "2.4.1",
+    "eslint-plugin-prettier": "4.2.1",
+    "prettier": "2.",
     "tslib": "2.7.0",
-    "typescript": "5.6.2"
-  },
-  "peerDependencies": {
-    "react": ">=17.0.0",
-    "react-dom": ">=17.0.0"
+    "typescript": "5.6.3"
   },
   "dependencies": {
     "@babel/runtime": "7.16.3"

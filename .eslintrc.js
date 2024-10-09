@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['airbnb', 'prettier/@typescript-eslint', 'plugin:prettier/recommended'],
+  extends: ['airbnb'],
   parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaVersion: 2020,
@@ -8,11 +8,10 @@ module.exports = {
       jsx: true,
     },
   },
-  plugins: ['@typescript-eslint', 'prettier', 'jest'],
+  plugins: ['@typescript-eslint', 'prettier'],
   env: {
     browser: true,
     node: true,
-    'jest/globals': true,
   },
   rules: {
     'no-use-before-define': 'off',
