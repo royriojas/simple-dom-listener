@@ -1,6 +1,6 @@
 {
   "name": "simple-dom-listener",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Simple dom listener helpers to add remove events without having to keep a reference to the listener itself",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
